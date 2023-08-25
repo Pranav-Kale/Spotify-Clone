@@ -1,0 +1,2 @@
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Ubuntu', sans-serif;

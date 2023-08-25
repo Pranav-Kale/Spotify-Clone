@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: rgba(163, 160, 160, 0.831);
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    background-color: black;
+    height: 58px;
+    cursor: pointer;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+
+.logo img{
+    padding: 0 8px;
+    width: 45px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.container{
+    min-height: 66vh;
+    background-color: black;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 15px auto;
+    padding: 18px;
+    border-radius: 20px;
+    background-image: url('bg.jpg');
+    background-size: 100% 110%;
+    display: flex;
+    flex-direction: column;
+}
+
+.songItemContainer{
+    /* width: 35vw; */
+    margin: 20px 580px 0 10px ;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.songItem img{
+    height: 35px;
+    border-radius: 20px;
+    margin : 0 20px;
+    
+}
+
+.songlistplay{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.timeStamp{
+    display:flex ;
+    align-items:center;
+    justify-content: center;
+    margin: 0 23px;
+    padding:0 10px;
+    font-size: 20px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    cursor: pointer;
+    width: 80vw;
+}
+
+.icons{
+    margin: 36px 0px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.playButton{
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+#masterPlay{
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+#about{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#home{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.songInfo{
+    position: absolute;
+    left: 11vw;
+    /* top: 15px; */
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: rgb(228, 15, 111);
+    }
+  }
+
+
+footer{
+    background-color: gray;
+    bottom: 0;
+    height: 180px;
+}
